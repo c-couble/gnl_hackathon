@@ -6,14 +6,14 @@
 /*   By: ccouble <ccouble@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/13 17:39:50 by ccouble           #+#    #+#             */
-/*   Updated: 2023/12/13 17:40:09 by ccouble          ###   ########.fr       */
+/*   Updated: 2023/12/13 17:55:52 by ccouble          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 10
+#  define BUFFER_SIZE 4096
 # endif
 
 # include <sys/types.h>
